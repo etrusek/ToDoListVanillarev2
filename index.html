@@ -4,17 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ToDoListVanilla</title>
+  <title>ToDoListRev8</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <form class='addTask'>
-    <label for="task">Dodaj Zadanie: </label><input type="text" id='task'><button>Dodaj</button>
+    <button type="submit" class='addTask'>Dodaj zadanie</button>
+    <input type="text" class='addTask'>
   </form>
-  <form class='filter'>
-    <label for="filter">Filtruj</label><input type="text" id='filter'>
-  </form>
-  <ul class='taskList'></ul>
+  <br>
+
+  <label for="filter">Filtruj</label><input type="text" id='filter'>
+
+  <ul></ul>
   <script src="main.js"></script>
 </body>
 
